@@ -374,12 +374,26 @@ body {
   .foot-col button:hover, .foot-col a:hover{color:var(--gold-light);}
   .foot-bottom{display:flex; justify-content:space-between; padding-top:22px; font-size:12.5px; flex-wrap:wrap; gap:10px; color:rgba(251,247,240,0.45);}
 
-  @media (max-width:600px){
-    .wrap{padding:0 20px;}
-    .nav-inner{padding:0 20px;}
-    section{padding:64px 0;}
+@media (max-width: 900px) {
+  .hero-art svg {
+    max-width: 100% !important;
+    height: auto !important;
   }
-
+  .wrap {
+    padding: 0 16px !important;
+  }
+  .nav-inner {
+    padding: 0 16px !important;
+  }
+  section {
+    padding: 48px 0 !important;
+  }
+  .hero-copy h1 {
+    font-size: 32px !important;
+    line-height: 1.2 !important;
+  }
+}
+  
   @media (prefers-reduced-motion: reduce){
     *{animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important;}
   }
