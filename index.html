@@ -117,12 +117,15 @@ body {
   .nav-toggle{display:none; background:none; border:none; padding:6px;}
   .nav-toggle svg{width:26px; height:26px; stroke:var(--teal-950);}
 
-  @media (max-width:940px){
-    .nav-links{display:none;}
-    .nav-call span{display:none;}
-    .nav-toggle{display:block;}
-    .nav-inner{height:72px;}
+  @media (max-width:900px){
+  .nav-links{display:none;}
+  .nav-call span{display:none;}
+  .nav-toggle{display:block;}
+  .nav-inner{height:72px; padding: 0 12px !important;}
+  .nav-cta { padding: 8px 12px !important; font-size: 12.5px !important; }
+  .brand-text strong { font-size: 13.5px !important; }
   }
+  
   .mobile-menu{
     display:none; flex-direction:column; padding:10px 32px 20px; gap:2px;
     background:var(--ivory); border-bottom:1px solid var(--line);
