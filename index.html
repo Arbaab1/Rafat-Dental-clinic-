@@ -121,12 +121,12 @@
   .photo-tile span{position:relative; z-index:2; font-family:'Fraunces', serif; font-style:italic; font-size:0.92rem;}
   .photo-tile::after{content:""; position:absolute; inset:0; background:linear-gradient(180deg, transparent 45%, rgba(10,20,18,0.6));}
 
-  /* Image File Names Integration */
-  .hero-img{ background-image: url('images/hero-doctor.jpg'); }
-  .gallery-img-1{ background-image: url('images/gallery-reception.jpg'); }
-  .gallery-img-2{ background-image: url('images/gallery-chair.jpg'); }
-  .gallery-img-3{ background-image: url('images/gallery-doctor-patient.jpg'); }
-  .gallery-img-4{ background-image: url('images/gallery-kids-corner.jpg'); }
+  /* Updated Root Image Paths */
+  .hero-img{ background-image: url('hero-doctor.jpg'); }
+  .gallery-img-1{ background-image: url('gallery-reception.jpg'); }
+  .gallery-img-2{ background-image: url('gallery-chair.jpg'); }
+  .gallery-img-3{ background-image: url('gallery-doctor-patient.jpg'); }
+  .gallery-img-4{ background-image: url('gallery-kids-corner.jpg'); }
 
   @media (max-width:900px){
     .hero{grid-template-columns:1fr; padding-top:32px;}
@@ -634,6 +634,7 @@
   });
 
   const apptForm = document.getElementById('apptForm');
+  constdocument.getElementById('apptForm');
   const apptDate = document.getElementById('pDate');
   const apptError = document.getElementById('apptError');
   const apptSuccess = document.getElementById('apptSuccess');
